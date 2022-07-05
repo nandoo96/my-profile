@@ -1,0 +1,396 @@
+header {
+    background: #1e1e1e;
+    padding: 10px 0;
+    height: 50px;
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    background: linear-gradient(#e0e0e0 0%, #84defc 100%);
+    min-height: 100vh;
+}
+
+.caixa-nav {
+    position: absolute;
+    width: 100%;
+}
+
+.perfil {
+    width: 150px;
+    position: relative;
+    top: 0px;
+    left: 10px;
+    border: 2px solid #e0e0e0;
+    border-radius: 50%;
+}
+
+.titulo-principal {
+    color: #84defc;
+    position: absolute;
+    display: inline-block;
+    left: 170px;
+    top: 30px;
+    font-family: 'Potta One', cursive;
+    font-size: 30px;
+}
+
+nav {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    font-size: 20px;
+    color: #84defc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 150ms;
+}
+
+nav a:hover {
+    text-shadow: 0.5px 0.5px #FFFFFF;
+    color: #FFFFFF;
+}
+
+.principal {
+    padding: 80px 15px 0 15px;
+}
+
+.titulo-curso {
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #1212a3;
+    text-shadow: 4px 1px 2px #FFFFFF;
+}
+
+.titulo-topicos {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 4px 1px 2px #FFFFFF;
+}
+
+.lista-topicos {
+    font-size: 20px;
+    font-style: italic;
+    display: inline-block;
+    vertical-align: top;
+    color: #000000;
+}
+
+.itens {
+    margin-bottom: 10px;
+}
+
+.itens:before {
+    content: "›";
+    font-size: 30px;
+    margin: 0 2px 0 0;
+}
+
+.itens:hover {
+    font-weight: bold;
+} 
+
+.certificados {
+    width: 80%;
+    position: absolute;
+    top: 310px;
+    left: 400px;
+}
+
+.certificado-um {
+    width: 250px;
+    position: absolute;
+    border: 2px solid #46bae7a6;
+    border-radius: 5px;
+    opacity: 0.7;
+    transition: 200ms;
+}
+.certificado-dois {
+    width: 250px;
+    position: relative;
+    top: 130px;
+    left: 90px;
+    border: 2px solid #46bae7a6;
+    border-radius: 5px;
+    opacity: 0.7;
+    transition: 200ms;
+}
+.certificado-tres {
+    width: 250px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    border: 2px solid #46bae7a6;
+    border-radius: 5px;
+    opacity: 0.7;
+    transition: 200ms;
+}
+.certificado-quatro {
+    width: 250px;
+    position: absolute;
+    top: 160px;
+    left: 390px;
+    border: 2px solid #46bae7a6;
+    border-radius: 5px;
+    opacity: 0.7;
+    transition: 200ms;
+}
+
+.certificado-um:hover {
+    opacity: 1;
+}
+
+.certificado-dois:hover {
+    opacity: 1;
+}
+
+.certificado-tres:hover {
+    opacity: 1;
+}
+
+.certificado-quatro:hover {
+    opacity: 1;
+}
+
+.conteudo-repositorio {
+    padding: 100px 15px 50px 15px;
+}
+
+.conteudo-repositorio h3 {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+    text-shadow: 4px 1px 2px #FFFFFF;
+}
+
+.conteudo-repositorio p {
+    font-size: 18px;
+    font-style: italic;
+    padding-left: 5px;
+    color: 	#000000;
+}
+
+.conteudo-repositorio p:before {
+    content: "»";
+    font-size: 20px;
+    margin: 0 2px 0 15px;
+}
+
+.conteudo-repositorio p:after {
+    content: "«";
+    font-size: 20px;
+    margin: 0 2px 0 0;
+}
+
+.lista-repositorio {
+    padding: 60px 0 0 15px;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.lista-repositorio li {
+    padding-bottom: 5px;
+}
+
+.lista-repositorio a {
+    text-decoration: none;
+    color: #D2691E;
+    font-weight: bold;
+}
+
+.lista-repositorio a:hover {
+    font-style: italic;
+}
+
+.lista-repositorio a:before {
+    content: "›";
+    font-size: 20px;
+    margin: 0 2px 0 0;
+}
+
+.imagens-repositorio {
+    display: inline;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.img-home {
+    width: 28%;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    opacity: 0.5;
+    transition: 200ms;
+    margin-right: 5px;
+}
+
+.img-produtos {
+    width: 28%;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    opacity: 0.5;
+    transition: 200ms;
+    margin-right: 5px;
+}
+
+.img-contato {
+    width: 28%;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    opacity: 0.5;
+    transition: 200ms;
+}
+
+.img-home:hover {
+    opacity: 1;
+}
+
+.img-produtos:hover {
+    opacity: 1;
+}
+
+.img-contato:hover {
+    opacity: 1;
+}
+
+.javascript {
+    margin: 80px 0 20px 0;
+}
+
+.lista-js li {
+    display: inline-block;
+    text-align: center;
+    width: 32%;
+    vertical-align: top;
+    margin: 0 1% 0 0;
+}
+
+.lista-js p {
+    color: #D2691E;
+    font-weight: bold;
+}
+
+.lista-js a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-style: normal;
+}
+
+.lista-js a:hover {
+    color: #D2691E
+}
+
+.img-freeway {
+    width: 50%;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    opacity: 0.5;
+    transition: 200ms;
+    margin-top: 25px;
+}
+
+.img-freeway:hover {
+    opacity: 1;
+}
+
+.img-pong {
+    width: 55%;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    opacity: 0.5;
+    transition: 200ms;
+    margin-top: 45px;
+}
+
+.img-pong:hover {
+    opacity: 1;
+}
+
+.img-midi {
+    width: 45%;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    opacity: 0.5;
+    transition: 200ms;
+    margin-top: 25px;
+}
+
+.img-midi:hover {
+    opacity: 1;
+}
+
+#link-repositorio {
+    margin: 0 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+#link-repositorio a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#link-repositorio a:hover {
+    color: #000000;
+} 
+
+#informacoes {
+    color: #FFFFFF;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#informacoes p:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#informacoes p {
+    font-size: 15px;
+    padding: 15px 0 0 20px;
+}
+
+footer {
+    padding: 105px 0 20px 15px;
+    background-image: linear-gradient(to left, transparent 0%, #1e1e1e 80%), url(img/footer.jpg);
+}
+
+@media screen and (max-width: 480px) {
+
+    .caixa-nav,
+    .principal,
+    .certificados,
+    .conteudo-repositorio,
+    .javascript, .informacoes {
+        width: auto;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+    }
+
+    img {
+        position: static;
+    }
+
+    footer, .informacoes {
+        width: 100%;
+    }
+}
